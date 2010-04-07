@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{jnunemaker-rack-gridfs}
+  s.name = %q{phaza-rack-gridfs}
   s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -47,20 +47,20 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rack>, [">= 0"])
-      s.add_runtime_dependency(%q<mongo>, ["= 0.19.1"])
+      s.add_runtime_dependency(%q<mongo>, ["= 0.19.3"])
       s.add_development_dependency(%q<mocha>, ["= 0.9.4"])
       s.add_development_dependency(%q<rack-test>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
     else
       s.add_dependency(%q<rack>, [">= 0"])
-      s.add_dependency(%q<mongo>, ["= 0.19.1"])
+      s.add_dependency(%q<mongo>, ["= 0.19.3"])
       s.add_dependency(%q<mocha>, ["= 0.9.4"])
       s.add_dependency(%q<rack-test>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
     end
   else
     s.add_dependency(%q<rack>, [">= 0"])
-    s.add_dependency(%q<mongo>, ["= 0.19.1"])
+    s.add_dependency(%q<mongo>, ["= 0.19.3"])
     s.add_dependency(%q<mocha>, ["= 0.9.4"])
     s.add_dependency(%q<rack-test>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
